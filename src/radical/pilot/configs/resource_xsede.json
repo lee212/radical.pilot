@@ -37,6 +37,8 @@
                                          "source ~train00/ssi_sourceme",
                                          "export TACC_DELETE_FILES=TRUE"
                                         ],
+        "pre_bootstrap_2"             : ["export LMOD_CMD=$LMOD_CMD",
+                                         "export LMOD_SYSTEM_DEFAULT_MODULES=$LMOD_SYSTEM_DEFAULT_MODULES"],
         "default_remote_workdir"      : "$WORK",
         "valid_roots"                 : ["/scratch", "$SCRATCH", "/work", "$WORK"],
         "rp_version"                  : "local",

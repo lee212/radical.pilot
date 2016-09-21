@@ -236,7 +236,7 @@ class Popen(AgentExecutingComponent) :
 
             # Before the Big Bang there was nothing
             if cu['description']['pre_exec']:
-                pre_exec_string = ''
+                pre_exec_string = 'module restore\n'
                 if isinstance(cu['description']['pre_exec'], list):
                     for elem in cu['description']['pre_exec']:
                         pre_exec_string += "%s\n" % elem
