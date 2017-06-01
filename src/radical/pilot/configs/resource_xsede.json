@@ -379,8 +379,8 @@
             "filesystem_endpoint"     : "sftp://supermic.cct-lsu.xsede.org/"
         },
         "gsissh"                      : {
-            "job_manager_endpoint"    : "torque+gsissh://supermic.cct-lsu.xsede.org",
-            "filesystem_endpoint"     : "gsisftp://supermic.cct-lsu.xsede.org/"
+            "job_manager_endpoint"    : "torque+gsissh://supermic.cct-lsu.xsede.org:2222",
+            "filesystem_endpoint"     : "gsisftp://supermic.cct-lsu.xsede.org:2222/"
         },
         "default_queue"               : "workq",
         "cores_per_node"              : "20",
